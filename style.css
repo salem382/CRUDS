@@ -1,0 +1,18 @@
+.search-container {
+    width: 75%;
+    margin: auto;
+    height: 40px;
+    position: relative;
+}
+.search-container select {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    border: 1px solid #ced4da;
+    color: #777;
+    border-radius: 5px;
+}
+span {
+    background-color: yellow;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CRUD</title>
+  </head>
+  <body>
+    <div class="w-75 mx-auto my-5">
+      <label for="productName">productName:</label>
+      <input placeholder="Name..." type="text" id="productName" class="form-control my-3 " />
+      <div class="alert alert-danger d-none" role="alert" id="name-alert">
+        
+      </div>
+      <label for="productPrice">productPrice:</label>
+      <input placeholder="price by dollar..." type="text" id="productPrice" class="form-control my-3" />
+      <div class="alert alert-danger d-none" role="alert" id="price-alert">
+        
+      </div>
+
+      <label for="productCategory">productCategory:</label>
+      <input placeholder="category..." type="text" id="productCategory" class="form-control my-3" />
+      <div class="alert alert-danger d-none" role="alert" id="categ-alert">
+        
+      </div>
+
+      <label for="productDesc">productDesc:</label>
+      <input placeholder="descroption..." type="text" id="productDesc" class="form-control my-3" />
+
+      <button onclick="addProduct ()" class="btn btn-outline-info" id="addProduct">
+        add product
+      </button>
+      <button onclick="remove ()" class="btn btn-outline-danger">
+        clear
+      </button>
+      <div class="search-container">
+        <!-- <input onkeyup="search ()" type="text"  class="form-control w-75 my-5 mx-auto" placeholder="Search ..." id="search"/> -->
+        
+      </div>
+      <table class="table mt-4">
+        <thead class="table-head">
+          <!-- <th>Index</th>
+          <th>productName</th>
+          <th>productprice</th>
+          <th>productCategory</th>
+          <th>productDesc</th>
+          <th>Delete</th>
+          <th>update</th> -->
+        </thead>
+        <tbody id="tableRow">
+            
+        </tbody>
+      </table>
+    </div>
+
+    
+    
+    <script src="main.js"></script>
+  </body>
+</html>
