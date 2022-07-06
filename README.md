@@ -11,8 +11,8 @@ https://salem382.github.io/CRUDS/
 # Built With
 
 <a href ="#"> <img align="center" src="11.png" height="50" width="50"/> </a>
-<a href ="#"> <img align="center" src=".15.png" height="50" width="50"/> </a>
-<a href ="#"> <img align="center" src=".13.png" height="50" width="50"/></a>
+<a href ="#"> <img align="center" src="15.png" height="50" width="50"/> </a>
+<a href ="#"> <img align="center" src="13.png" height="50" width="50"/></a>
 <a href ="#"> <img align="center" src="14.png" height="50" width="50"/></a>
 <a href ="#"> <img align="center" src="20.png" height="50" width="50"/></a>
 
